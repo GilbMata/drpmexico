@@ -1,0 +1,9 @@
+<template>
+  <div>
+  <b-embed
+    type="iframe"
+    src="https://veeam.drpmexico.com/"
+    allowfullscreen
+  ></b-embed>
+</div>
+</template>
