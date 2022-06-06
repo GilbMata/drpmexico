@@ -1,7 +1,8 @@
 <template>
-    <b-container fluid class="footercomp">
+    <b-container class="footercomp">
         <div class="menufoot">
-            <img src="../../public/img/principal/logoFooter.png" alt="DRPMexico"><br>
+            <img src="../../public/img/principal/logoFooter.png"
+                alt="DRPMexico"><br>
             <span>inicio</span>
             <span>nosotros</span>
             <span>servicios</span>
@@ -17,63 +18,30 @@
                 <span>FORMULARIO DE CONTACTO</span><br>
                 <span>Envíanos tus datos o llámanos</span>
             </div>
-            <b-form @submit="onSubmit" @reset="onReset" v-if="show" class="formfoot1">
-                    <span class="formfoot11">
-                        <b-form-input
-                            id="input-1"
-                            v-model="form.name"
-                            placeholder="Nombre"
-                            required
-                            type = "text"
-                            size="s"
-                        ></b-form-input>
-                        <b-form-input
-                            id="input-2"
-                            v-model="form.name"
-                            placeholder="Apellidos"
-                            required
-                            size="sm"
-                        ></b-form-input>
-                        <b-form-input
-                        id="input-3"
-                        v-model="form.name"
-                        placeholder="Compañia"
-                        required
-                        size="sm"
-                        ></b-form-input>
-                        <b-form-input
-                        id="input-4"
-                        v-model="form.name"
-                        placeholder="Puesto"
-                        required
-                        size="sm"
-                        ></b-form-input>
-                    </span>
-                    <span class="formfoot12">
-                        <b-form-input
-                        id="input-5"
-                        v-model="form.name"
-                        placeholder="Telefono"
-                        required
-                        type = "text"
-                        size="sm"
-                        ></b-form-input>
-                        <b-form-input
-                        id="input-2"
-                        v-model="form.name"
-                        placeholder="Correo"
-                        required
-                        size="sm"
-                        ></b-form-input>
-                        <b-form-input
-                        id="input-2"
-                        v-model="form.name"
-                        placeholder="Mensaje"
-                        required
-                        size="sm"
-                        ></b-form-input>
-                         <b-button pill variant="success" size="sm">Enviar</b-button>
-                    </span>
+            <b-form v-if="show" class="formfoot1">
+                <span class="formfoot11">
+                    <b-form-input id="input-1" v-model="form.name"
+                        placeholder="Nombre" required type="text" size="s">
+                    </b-form-input>
+                    <b-form-input id="input-2" v-model="form.name"
+                        placeholder="Apellidos" required size="sm">
+                    </b-form-input>
+                    <b-form-input id="input-3" v-model="form.name"
+                        placeholder="Compañia" required size="sm">
+                    </b-form-input>
+                    <b-form-input id="input-4" v-model="form.name"
+                        placeholder="Puesto" required size="sm"></b-form-input>
+                </span>
+                <span class="formfoot12">
+                    <b-form-input id="input-5" v-model="form.name"
+                        placeholder="Telefono" required type="text" size="sm">
+                    </b-form-input>
+                    <b-form-input id="input-2" v-model="form.name"
+                        placeholder="Correo" required size="sm"></b-form-input>
+                    <b-form-input id="input-2" v-model="form.name"
+                        placeholder="Mensaje" required size="sm"></b-form-input>
+                    <b-button pill variant="success" size="sm">Enviar</b-button>
+                </span>
             </b-form>
         </div>
     </b-container>
@@ -96,7 +64,7 @@ export default {
 </script>
 
 <style>
-.formfoot1{
+.formfoot1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,7 +78,7 @@ export default {
     flex-wrap: wrap;
 }
 
-.formfoot10{
+.formfoot10 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,7 +90,8 @@ export default {
     order: 2;
     flex-grow: 0;
 }
-.formfoot11{
+
+.formfoot11 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,7 +104,8 @@ export default {
     order: 0;
     flex-grow: 0;
 }
-.formfoot12{
+
+.formfoot12 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,7 +118,8 @@ export default {
     order: 1;
     flex-grow: 0;
 }
-.formfoot{
+
+.formfoot {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,7 +131,8 @@ export default {
     order: 2;
     flex-grow: 0;
 }
-.datosfoot{
+
+.datosfoot {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -172,7 +144,8 @@ export default {
     order: 1;
     flex-grow: 0;
 }
-.menufoot{
+
+.menufoot {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,7 +160,8 @@ export default {
     order: 0;
     flex-grow: 0;
 }
-.footercomp{
+
+.footercomp {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -200,20 +174,22 @@ export default {
     border-radius: 30px 30px 0px 0px;
     color: #FFFFFF;
 }
-.form-control{
+
+.form-control {
     border-radius: 10px;
     padding: 0px;
     gap: 10px;
 }
-@media only screen and (min-width: 991px) {
-  .formfoot1{
-    flex-direction: row;
-}
-.footercomp{
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-}
-}
 
+@media only screen and (min-width: 991px) {
+    .formfoot1 {
+        flex-direction: row;
+    }
+
+    .footercomp {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+}
 </style>

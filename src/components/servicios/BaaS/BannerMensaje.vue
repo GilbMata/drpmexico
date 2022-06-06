@@ -26,7 +26,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 150px 150px;
+/* padding: 150px 150px; */
 /* gris claro */
 background: #F7F8F8;
 /* Inside auto layout */
@@ -34,4 +34,15 @@ flex: none;
 order: 2;
 flex-grow: 0;
 }
+/* #banner-mensaje{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 150px 150px;
+background: #F7F8F8;
+flex: none;
+order: 2;
+flex-grow: 0;
+} */
 </style>

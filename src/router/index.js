@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import ServiciosMs365 from '@/views/servicios/ServiciosMs365.vue';
+import ServiciosPso from '@/views/servicios/ServiciosPso.vue';
 import HomeView from '../views/HomeView.vue';
-// import Contacto from '../views/Contacto.vue';
 import ServiciosBaaS from '../views/servicios/ServiciosBaaS.vue';
 import ServiciosDRaaS from '../views/servicios/ServiciosDRaaS.vue';
 import ServiciosIaaS from '../views/servicios/ServiciosIaaS.vue';
@@ -33,6 +34,16 @@ const routes = [
     path: '/iaas',
     name: 'IaaS',
     component: ServiciosIaaS,
+  },
+  {
+    path: '/ms365',
+    name: 'Ms365',
+    component: ServiciosMs365,
+  },
+  {
+    path: '/pso',
+    name: 'Pso',
+    component: ServiciosPso,
   },
   {
     path: '/legal',

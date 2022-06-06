@@ -20,6 +20,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:GilbMata/GilbMata.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:GilbMata/drpmexico.git main:gh-pages
+# git push -f git@github.com:GilbMata/drpweb.git main:gh-pages
+git push -f git@github.com:GilbMata/gilbmata.github.io.git master:gh-pages
 
 cd -

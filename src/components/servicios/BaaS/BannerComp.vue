@@ -1,11 +1,22 @@
 <template>
   <b-container fluid sm id="banner-baas">
+    <transition name="show">
     <b-img :src="require('../../../../public/img/servicios/baas/baasicon.png')"
     fluid alt="baas"></b-img>
+    </transition>
   </b-container>
 </template>
 
 <style lang="scss">
+.show-enter-active,
+.show-leave-enter {
+    transform: translateX(0);
+    transition: all .3s linear;
+}
+.show-enter,
+.show-leave-to {
+    transform: translateX(100%);
+}
 #banner-baas{
   display: flex;
   flex-direction: row;
@@ -27,4 +38,9 @@ img{
   padding: 100px ;
   }
 }
+
+@media only screen and (min-width: 992px){
+
+}
+
 </style>

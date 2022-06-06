@@ -1,32 +1,38 @@
 <template>
   <!-- <b-container fluid class="d-sm-flex justify-content-md-center"> -->
-  <b-navbar toggleable="lg" type="dark" variant="dark" sticky>
+  <b-navbar toggleable="xl" type="dark" variant="dark" sticky>
     <b-navbar-brand href="/">
-      <img src="@/assets/drplogo.png" class="d-inline-block align-top logo"
-        alt="DRPMexico">
+      <img src="@/assets/drplogo.png" class="d-inline-block logo align-top" alt="DRPMexico">
     </b-navbar-brand>
     <b-navbar-toggle target="navbar-toggle-collapse"></b-navbar-toggle>
     <b-collapse id="navbar-toggle-collapse" is-nav>
       <b-navbar-nav class="ms-auto">
         <b-nav-item href="/" class="nav-item">Partners</b-nav-item>
-        <b-nav-item-dropdown text="Servicios" center>
-          <b-dropdown-item to="/baas">BaaS - Respaldos</b-dropdown-item>
-          <b-dropdown-item to="/draas">DRaaS - Recuperacion</b-dropdown-item>
-          <b-dropdown-item href="/iaas">IaaS - Infraestructura</b-dropdown-item>
+        <b-nav-item-dropdown text="Servicios" right>
+          <b-dropdown-item to="/baas"><strong>BaaS</strong> - Respaldos
+          </b-dropdown-item>
+          <b-dropdown-item to="/draas"><strong>DraaS</strong> - Recuperacion
+          </b-dropdown-item>
+          <b-dropdown-item to="/iaas"><strong>IaaS</strong> - Infraestructura
+          </b-dropdown-item>
+          <b-dropdown-item to="/ms365"> <strong>MS365</strong> - Respaldo
+          </b-dropdown-item>
+          <b-dropdown-item to="/pso"> <strong>Pso/Msp</strong> - Profesional
+          </b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item href="#">Contacto</b-nav-item>
         <b-nav-item href="#">Talento</b-nav-item>
         <b-nav-item href="https://support.drpmexico.com/">Soporte</b-nav-item>
         <b-nav-item-dropdown text="Portales">
-          <b-dropdown-item href="https://veeam.drpmexico.com/">veam
+          <b-dropdown-item href="https://veeam.drpmexico.com/">Veam
           </b-dropdown-item>
-          <b-dropdown-item href="https://vcloud.drpmexico.com/">vcloud
+          <b-dropdown-item href="https://vcloud.drpmexico.com/">Vcloud
           </b-dropdown-item>
-          <b-dropdown-item href="https://prtg.drpmexico.com/">prtg
+          <b-dropdown-item href="https://prtg.drpmexico.com/">Prtg
           </b-dropdown-item>
-          <b-dropdown-item href="https://vcda.drpmexico.com/">vcda
+          <b-dropdown-item href="https://vcda.drpmexico.com/">Vcda
           </b-dropdown-item>
-          <b-dropdown-item href="https://vcloud.drpmexico.com/">vcloud
+          <b-dropdown-item href="https://vcloud.drpmexico.com/">Vcloud
           </b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item to="/legal">Legal</b-nav-item>
@@ -37,6 +43,14 @@
 </template>
 
 <style lang="scss">
+// .navbar-brand {
+//   padding: 5vw;
+// }
+
+#navbar-toggle-collapse {
+  padding-left: 5vw;
+}
+
 .nav-item:hover {
   background: #009845;
   border-radius: 15px;
@@ -48,28 +62,41 @@
   text-transform: uppercase;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  // padding: 10px 70px;
-  gap: 10px;
-  // position: fixed;
-  //width: 100vw;
-  // height: auto;
-  border-color: transparent;
-  background-color: #1C2A45;
-}
+// .navbar {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: nowrap;
+//   justify-content: space-around;
+//   // padding: 10px 70px;
+//   gap: 10px;
+//   // position: fixed;
+//   //width: 100vw;
+//   // height: auto;
+//   border-color: transparent;
+//   background-color: #1C2A45;
+// }
 
 @media screen and (min-width: 992px) {
   .navbar {
-    padding: 10px 70px;
+    padding: 10px;
 
     .logo {
-      width: 300px;
+      // width: 300px;
       height: auto;
     }
+
+    .navbar-nav {
+      align-items: center;
+    }
+  }
+
+  .navbar-brand {
+     padding: 10;
+  }
+
+  #navbar-toggle-collapse {
+    padding-left: 0vw;
+    // align-items: flex-start;
   }
 }
 
@@ -84,8 +111,8 @@
 }
 
 .logo {
-  width: 200px;
+  width: 250px;
   // height: 60px;
-  justify-content: space-around;
+  // justify-content: space-around;
 }
 </style>

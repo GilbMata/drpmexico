@@ -1,33 +1,35 @@
 <template>
-  <div class="card2">
-      <span class="serv">Servicios</span>
-      <div class="servimg">
+  <div class="serviciosCard">
+    <span class="ServiciosTitulo">Servicios</span>
+    <div class="serviciosList">
+      <sequential-entrance fromBottom>
         <router-link to="/baas">
-          <img class="imgserv"  src="../../../public/img/servicios/baas.png" alt="">
+          <img class="imgServicio" src="../../../public/img/servicios/baas.png" alt="">
         </router-link>
         <router-link to="/draas">
-          <img class="imgserv" src="../../../public/img/servicios/draas.png" alt="">
+          <img class="imgServicio" src="../../../public/img/servicios/draas.png" alt="">
         </router-link>
         <router-link to="/iaas">
-          <img class="imgserv" src="../../../public/img/servicios/iaas.png" alt="">
+          <img class="imgServicio" src="../../../public/img/servicios/iaas.png" alt="">
         </router-link>
-        <router-link to="/ms360">
-          <img class="imgserv" src="../../../public/img/servicios/360.png" alt="">
+        <router-link to="/ms365">
+          <img class="imgServicio" src="../../../public/img/servicios/360.png" alt="">
         </router-link>
         <router-link to="/pso">
-          <img class="imgserv" src="../../../public/img/servicios/pso.png" alt="">
+          <img class="imgServicio" src="../../../public/img/servicios/pso.png" alt="">
         </router-link>
-      </div>
+      </sequential-entrance>
+    </div>
   </div>
 </template>
 
 <style lang="scss">
-.card2{
+.serviciosCard {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 40px;
-  gap: 30px;
+  padding: 5vw;
+  gap: 1px;
   background: #F3F3F4;
   /* Inside auto layout */
   flex: none;
@@ -35,13 +37,14 @@
   align-self: stretch;
   flex-grow: 0;
 }
-.serv{
-  font-family: 'Century Gothic';
+
+.ServiciosTitulo {
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  // font-size: 40px;
+  font-size: 2rem;
   line-height: 49px;
- // line-height: 48px;
+  // line-height: 48px;
   text-align: center;
   color: #000000;
   /* Inside auto layout */
@@ -49,13 +52,14 @@
   order: 0;
   flex-grow: 0;
 }
-.servimg{
+
+.serviciosList {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px 40px;
-  gap: 30px;
+  padding: 1vw;
+  gap: 0px;
   flex-wrap: wrap;
   /* Inside auto layout */
   flex: none;
@@ -63,19 +67,22 @@
   align-self: stretch;
   flex-grow: 1;
 }
-  #baas{
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+
+.imgServicio {
+  height: 9rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .imgServicio {
+    height: 11rem;
+    margin: 1rem;
+    // padding: 20px;
   }
-  #pso{
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+
+  .serviciosList {
+    div {
+      justify-content: space-around;
+    }
   }
-.imgserv{
-  height: 200px;
 }
 </style>

@@ -11,7 +11,7 @@
 
 <script>
 import menuDefault from '@/components/MenuDefault.vue';
-import { bodyScript } from '@/assets/external';
+// import { bodyScript } from '@/assets/external';
 import footerComp from '@/components/footerComp.vue';
 
 const cwhite = '#FFFFFF';
@@ -25,14 +25,14 @@ export default {
   data: () => ({
     cwhite,
   }),
-  created() {
-    // external.headScript('/assets/script1.js');
-    bodyScript('https://assets.freshservice.com/widget/freshwidget.js');
-  },
-  destroyed() {
-    /* external.delScript('/assets/script1.js');
-    external.delScript('/assets/script2.js'); */
-  },
+  // created() {
+  //   // external.headScript('/assets/script1.js');
+  //   bodyScript('https://assets.freshservice.com/widget/freshwidget.js');
+  // },
+  // destroyed() {
+  //   /* external.delScript('/assets/script1.js');
+  //   external.delScript('/assets/script2.js'); */
+  // },
 };
 </script>
 

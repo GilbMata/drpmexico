@@ -6,25 +6,26 @@
     </div>
 </template>
 
-<style>
-.svideo{
+<style lang="scss">
+.svideo {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 50px 400px;
+    /* padding: 50px 400px; */
     background: #F7F8F8;
     /* Inside auto layout */
     flex: none;
     order: 5;
     flex-grow: 0;
 }
-.b-embed{
-    width: 650px;
-    height: 350px;
+
+.b-embed {
+    width: 100%;
+    /* height: 350px; */
     /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
 }
+
 </style>

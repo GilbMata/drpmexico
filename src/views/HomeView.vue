@@ -5,7 +5,7 @@
     <servicios-comp></servicios-comp>
     <carrousel-comp></carrousel-comp>
     <nosotros-comp></nosotros-comp>
-    <!-- <video-comp></video-comp> -->
+    <video-comp></video-comp>
     <clientes-comp></clientes-comp>
     <certificacionew-comp></certificacionew-comp>
   </div>
@@ -16,7 +16,7 @@ import bienvenidaComp from '@/components/principal/bienvenidaComp.vue';
 import serviciosComp from '@/components/principal/serviciosComp.vue';
 import carrouselComp from '@/components/principal/carrouselComp.vue';
 import nosotrosComp from '@/components/principal/nosotrosComp.vue';
-// import videoComp from '@/components/principal/videoComp.vue';
+import videoComp from '@/components/principal/videoComp.vue';
 import clientesComp from '@/components/principal/clientesComp.vue';
 import certificacionewComp from '@/components/principal/certificacionewComp.vue';
 
@@ -26,7 +26,7 @@ export default {
     serviciosComp,
     carrouselComp,
     nosotrosComp,
-    // videoComp,
+    videoComp,
     clientesComp,
     certificacionewComp,
   },
