@@ -1,7 +1,7 @@
 <template>
-  <div id="info">
-    <span v-html="varTxt" class="infotxt1"></span>
-    <span v-html="varTxt2" class="infotxt2"></span>
+  <div id="infoCard">
+    <span v-html="varTxt" class="infoCardtxt1"></span>
+    <span v-html="varTxt2" class="infoCardtxt2"></span>
   </div>
 </template>
 

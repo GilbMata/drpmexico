@@ -1,5 +1,5 @@
 <template>
-  <div id="banner-mensaje">
+  <div id="banner-mensajeServ">
     <tarjeta-mensaje mensaje="<strong><span class='txtgreen'>DRP</span>México
     IaaS</strong> proporciona la eficiencia y la escalabilidad de IaaS
     tradicional, pero con una infraestructura probada basada en VMware, diseñado

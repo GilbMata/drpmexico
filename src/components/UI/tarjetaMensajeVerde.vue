@@ -24,8 +24,9 @@ export default {
     font-family: 'Century Gothic';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    /* font-size: 40px; */
     line-height: 40px;
     padding: 10%;
+    gap: 10px;
 }
 </style>

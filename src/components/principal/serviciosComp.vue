@@ -1,8 +1,8 @@
 <template>
-  <div class="serviciosCard">
-    <span class="ServiciosTitulo">Servicios</span>
+  <div class="serviciosCard" id="servicios">
+    <span class="drpTitulo">SERVICIOS</span>
     <div class="serviciosList">
-      <sequential-entrance fromBottom>
+      <!-- <sequential-entrance fromBottom> -->
         <router-link to="/baas">
           <img class="imgServicio" src="../../../public/img/servicios/baas.png" alt="">
         </router-link>
@@ -18,7 +18,7 @@
         <router-link to="/pso">
           <img class="imgServicio" src="../../../public/img/servicios/pso.png" alt="">
         </router-link>
-      </sequential-entrance>
+      <!-- </sequential-entrance> -->
     </div>
   </div>
 </template>
@@ -28,8 +28,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5vw;
-  gap: 1px;
+  padding: 1.5rem;
+  gap: 10px;
   background: #F3F3F4;
   /* Inside auto layout */
   flex: none;
@@ -51,6 +51,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  animation: .5s ease-in-out 0s 1 slideUp;
 }
 
 .serviciosList {
@@ -69,19 +70,22 @@
 }
 
 .imgServicio {
-  height: 9rem;
+  height: 10rem;
 }
 
 @media only screen and (min-width: 992px) {
   .imgServicio {
-    height: 11rem;
-    margin: 1rem;
+    height: 18rem;
     // padding: 20px;
-  }
+}
+.ServiciosTitulo {
+  font-size: 2.6rem;
+  letter-spacing: 0.1em;
+}
 
   .serviciosList {
     div {
-      justify-content: space-around;
+      justify-content: space-between;
     }
   }
 }

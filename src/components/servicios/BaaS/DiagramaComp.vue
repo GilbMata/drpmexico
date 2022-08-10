@@ -6,15 +6,24 @@
 </template>
 
 <style lang="scss">
+
+</style>
+
+<style lang="scss">
   #mapa{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
-      order: 8;
+      order: 7;
+      background: #F7F8F8;
   .imgdiagrama{
-    width: 80%;
-    //height: 10%;
-  }
+      transition:transform 0.25s ease;
+    }
+      .imgdiagrama:hover {
+    -webkit-transform:scale(1.2); /* or some other value */
+    transform:scale(1.2);
+}
+
   }
 </style>

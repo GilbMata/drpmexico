@@ -1,12 +1,13 @@
 <template>
-  <div id="banner-msj-ms365">
-    <tarjeta-mensajeV mensaje="<strong>DRPMÉXICO MICROSOFT 365 BACKUP</strong>"
-      mensaje2="<span class='msjsm'>Tus datos críticos seguros, protegidos y accesibles</span>"
+  <div id="banner-mensajeVC">
+    <tarjeta-mensajeV
+      mensaje="<strong class='msjsmT'>DRPMÉXICO MICROSOFT 365 BACKUP</strong>"
+      mensaje2="<strong class='msjsm'>Eficiencia en la nube de extremo a extremo.</strong>"
       class="tarjetaMsj">
     </tarjeta-mensajeV>
   </div>
 </template>
-
+<!-- <strong>Eficiencia de la nube de extremo a extremo.</strong>' -->
 <script>
 import TarjetaMensajeV from '../../UI/tarjetaMensajeVerde.vue';
 

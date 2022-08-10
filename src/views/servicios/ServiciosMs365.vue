@@ -6,8 +6,8 @@
     <informacion-Comp></informacion-Comp>
     <banner-mensajeVerde></banner-mensajeVerde>
     <tarjeta-descripcion-comp></tarjeta-descripcion-comp>
-    <prueba-comp></prueba-comp>
     <diagrama-comp></diagrama-comp>
+    <prueba-comp></prueba-comp>
   </div>
 </template>
 
@@ -31,6 +31,9 @@ export default {
     TarjetaDescripcionComp,
     PruebaComp,
     DiagramaComp,
+  },
+  mounted() {
+    window.scrollTo(0, 0);
   },
 };
 </script>

@@ -15,10 +15,10 @@ export default {
 <style lang="scss">
 #tarjeta-mensaje {
   border-radius: 30px;
-  margin: 0 auto;
-  font-family: 'Century Gothic';
+  // margin: 0 auto;
+  text-align: justify;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.8rem;
   line-height: 32px;
   background: #F7F8F8;
 }

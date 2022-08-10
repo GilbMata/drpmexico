@@ -1,7 +1,7 @@
 <template>
-  <div id="info">
-    <span v-html="varTxt" class="infotxt1"></span>
-    <span v-html="varTxt2" class="infotxt2"></span>
+  <div id="infoCard" class="reveal">
+    <span v-html="varTxt" class="infoCardtxt1"></span>
+    <span v-html="varTxt2" class="infoCardtxt2"></span>
   </div>
 </template>
 
@@ -18,31 +18,29 @@ export default {
 </script>
 
 <style lang="scss">
-.infotxt2{
-  font-family: 'Century Gothic';
-  font-style: normal;
-  font-size: 1rem;
+.infoCardtxt2{
+  font-size: 1.4rem;
   line-height: 29px;
   align-items: center;
   text-align: center;
-  width: 50%;
+  padding: 2rem;
+  // width: 50%;
 }
-.infotxt1{
-  font-family: 'Century Gothic';
-  font-style: normal;
-  font-size: 2rem;
+.infoCardtxt1{
+  font-size: 2.5rem;
   line-height: 2.8rem;
   text-align: center;
   text-transform: uppercase;
-  width: 30%;
+  padding: 2rem;
+  // width: 30%;
 }
-#info{
+#infoCard{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  padding: 100px 100px;
-  gap: 100px;
+  padding: 70px 0px;
+  // gap: 100px;
 
   /* gris claro */
   background: #F7F8F8;
@@ -52,5 +50,25 @@ export default {
   flex: none;
   order: 4;
   flex-grow: 0;
+}
+
+@media only screen and (min-width: 992px){
+  #infoCard{
+    flex-flow: row nowrap;
+    // justify-content: space-between;
+    gap: 100px;
+    .infoCardtxt1{
+      // text-align: justify;
+    font-size: 2.7rem;
+    // padding-left: 10rem;
+    // padding-right: 0;
+    width: 30%;
+    }
+    .infoCardtxt2{
+      font-size: 1.4rem;
+      text-align: justify;
+      width: 50%
+    }
+  }
 }
 </style>

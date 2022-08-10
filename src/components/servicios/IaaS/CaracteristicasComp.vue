@@ -1,15 +1,35 @@
 <template>
-  <div class="card2">
-    <div class="servimg">
-      <b-img class="imgserv"
-        :src="require('../../../../public/img/servicios/iaas/IaaS-icons  (1).svg')">
-      </b-img>
-      <b-img class="imgserv"
-        :src="require('../../../../public/img/servicios/iaas/IaaS-icons  (2).svg')">
-      </b-img>
-      <b-img class="imgserv"
-        :src="require('../../../../public/img/servicios/iaas/IaaS-icons  (3).svg')">
-      </b-img>
+  <div class="card2 reveal">
+   <div class="caractServImg">
+      <div class="pImgServ">
+        <b-img
+          class="imgServComp"
+          :src="require('../../../../public/img/servicios/iaas/IaasCar (1).png')"
+          alt="x"
+        ></b-img>
+        <p>Flexibilidad</p>
+        <!-- <p>Reduce costos de adquisicion</p> -->
+      </div>
+      <div class="pImgServ">
+        <b-img
+          class="imgServComp"
+          :src="require('../../../../public/img/servicios/iaas/IaasCar (2).png')"
+          alt="x"
+        ></b-img>
+        <p>
+         Seguridad
+        </p>
+      </div>
+      <div class="pImgServ">
+        <b-img
+          class="imgServComp"
+          :src="require('../../../../public/img/servicios/iaas/IaasCar (3).png')"
+          alt="x"
+        ></b-img>
+        <p>
+          Eficacia
+        </p>
+      </div>
     </div>
   </div>
 </template>

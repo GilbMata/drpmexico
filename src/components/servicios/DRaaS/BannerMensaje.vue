@@ -1,5 +1,5 @@
 <template>
-  <div id="banner-mensaje">
+  <div id="banner-mensaje" class="reveal">
     <tarjeta-mensaje mensaje="<strong><span class='txtgreen'>DRP</span>México
     DRaaS</strong> Integrado con Veeam y VMware, en conjunto proporcionan las
     capacidades de <strong>seguridad, replicación y conmutación</strong> por

@@ -1,11 +1,11 @@
 <template>
-  <div id="banner-mensaje">
+  <div id="banner-mensajeServ">
     <tarjeta-mensaje
-      mensaje="<strong><span class='txtgreen'>DRP</span>México Backup as a Service</strong>
+      mensaje="<strong><span lass='txtgreen'>DRP</span>México Backup as a Service</strong>
       está diseñado para <strong>ayudar a proteger sus datos críticos</strong>
       de amenazas de ciberseguridad internas y externas, cumplir con sus requisitos de retención
       a largo plazo y a modernizar su estrategia de respaldo."
-    class="tarjetaMsj">
+    >
     </tarjeta-mensaje>
   </div>
 </template>
@@ -21,28 +21,23 @@ export default {
 </script>
 
 <style>
-#banner-mensaje{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-/* padding: 150px 150px; */
-/* gris claro */
-background: #F7F8F8;
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
+#banner-mensajeServ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  /* gris claro */
+  background: #f7f8f8;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
-/* #banner-mensaje{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 150px 150px;
-background: #F7F8F8;
-flex: none;
-order: 2;
-flex-grow: 0;
-} */
+@media only screen and (min-width: 992px) {
+  #banner-mensajeServ {
+    padding: 150px;
+  }
+}
 </style>

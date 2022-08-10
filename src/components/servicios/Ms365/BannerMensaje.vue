@@ -1,5 +1,5 @@
 <template>
-  <div id="banner-mensaje">
+  <div id="banner-mensajeServ">
     <tarjeta-mensaje mensaje="<strong><span class='txtgreen'>DRP</span>México
     Microsoft 365 Backup</strong> va mucho más allá al
     proporcionar las capacidades de retención, seguridad y protección de datos a

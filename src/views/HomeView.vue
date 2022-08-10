@@ -1,9 +1,9 @@
 /* eslint-disable vue/no-unused-components */
 <template>
   <div id="home-view">
-    <bienvenida-comp></bienvenida-comp>
-    <servicios-comp></servicios-comp>
     <carrousel-comp></carrousel-comp>
+    <!-- <bienvenida-comp></bienvenida-comp> -->
+    <servicios-comp></servicios-comp>
     <nosotros-comp></nosotros-comp>
     <video-comp></video-comp>
     <clientes-comp></clientes-comp>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import bienvenidaComp from '@/components/principal/bienvenidaComp.vue';
+// import bienvenidaComp from '@/components/principal/bienvenidaComp.vue';
 import serviciosComp from '@/components/principal/serviciosComp.vue';
 import carrouselComp from '@/components/principal/carrouselComp.vue';
 import nosotrosComp from '@/components/principal/nosotrosComp.vue';
@@ -22,7 +22,7 @@ import certificacionewComp from '@/components/principal/certificacionewComp.vue'
 
 export default {
   components: {
-    bienvenidaComp,
+    // bienvenidaComp,
     serviciosComp,
     carrouselComp,
     nosotrosComp,

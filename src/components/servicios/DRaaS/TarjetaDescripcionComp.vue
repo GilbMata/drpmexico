@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid id="descComp">
+  <b-container id="descComp">
     <tarjeta-descripcionB v-for="item in items" :key="item.id" :msj="item.msj"
       :img="item.img">
     </tarjeta-descripcionB>

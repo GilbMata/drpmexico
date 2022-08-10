@@ -5,8 +5,8 @@
 		}
 	],
 	"settings": {
-		"editor.codeActionsOnSave": {
-			"source.fixAll": true
-		}
-	}
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
 }
