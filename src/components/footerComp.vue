@@ -12,27 +12,39 @@
     </div>
     <div class="datosfoot">
       <span>CONTACTANOS</span><br />
-      <a v-bind:href="'mailto:' + 'contacto@drpmexico.com'">{{ 'contacto@drpmexico.com' }}</a>
+      <a v-bind:href="'mailto:' + 'contacto@drpmexico.com'">{{
+        'contacto@drpmexico.com'
+      }}</a>
       <a a href="tel:+525589955400">+52 (55) 89 95 54 00</a>
       <div class="redes">
         <b-link href="https://www.facebook.com/drpmexico/">
-          <b-img :src="require('../../public/img/redes (1).svg')"
-          href=""
-          class="imgPrincipal" alt=""></b-img>
+          <b-img
+            :src="require('../../public/img/redes (1).svg')"
+            href=""
+            class="imgPrincipal"
+            alt=""
+          ></b-img>
         </b-link>
-        <b-link  href="https://www.instagram.com/drp_mexico/">
-
-          <b-img :src="require('../../public/img/redes (2).svg')"
-
-        class="imgPrincipal" alt=""></b-img>
+        <b-link href="https://www.instagram.com/drp_mexico/">
+          <b-img
+            :src="require('../../public/img/redes (2).svg')"
+            class="imgPrincipal"
+            alt=""
+          ></b-img>
         </b-link>
         <b-link href="https://www.linkedin.com/company/drpmexico/">
-        <b-img :src="require('../../public/img/redes (3).svg')"
-        class="imgPrincipal" alt=""></b-img>
+          <b-img
+            :src="require('../../public/img/redes (3).svg')"
+            class="imgPrincipal"
+            alt=""
+          ></b-img>
         </b-link>
         <b-link href="https://twitter.com/drpmexico">
-        <b-img :src="require('../../public/img/redes (4).svg')"
-        class="imgPrincipal" alt=""></b-img>
+          <b-img
+            :src="require('../../public/img/redes (4).svg')"
+            class="imgPrincipal"
+            alt=""
+          ></b-img>
         </b-link>
       </div>
     </div>
@@ -49,7 +61,8 @@
             placeholder="Nombre"
             required
             type="text"
-            size="sm">
+            size="sm"
+          >
           </b-form-input>
           <b-form-input
             id="input-2"
@@ -138,7 +151,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 .formfoot1 {
   display: flex;
   flex-direction: column;
@@ -259,13 +271,13 @@ export default {
   gap: 10px;
 }
 
-.redes{
+.redes {
   display: flex;
   padding-top: 10px;
   gap: 10px;
-img{
-  width: 40px;
-}
+  img {
+    width: 40px;
+  }
 }
 
 @media only screen and (min-width: 991px) {

@@ -1,10 +1,12 @@
 <template>
   <div class="card2 reveal">
-   <div class="caractServImg">
+    <div class="caractServImg">
       <div class="pImgServ">
         <b-img
           class="imgServComp"
-          :src="require('../../../../public/img/servicios/iaas/IaasCar (1).png')"
+          :src="
+            require('../../../../public/img/servicios/iaas/IaasCar (1).png')
+          "
           alt="x"
         ></b-img>
         <p>Flexibilidad</p>
@@ -13,22 +15,22 @@
       <div class="pImgServ">
         <b-img
           class="imgServComp"
-          :src="require('../../../../public/img/servicios/iaas/IaasCar (2).png')"
+          :src="
+            require('../../../../public/img/servicios/iaas/IaasCar (2).png')
+          "
           alt="x"
         ></b-img>
-        <p>
-         Seguridad
-        </p>
+        <p>Seguridad</p>
       </div>
       <div class="pImgServ">
         <b-img
           class="imgServComp"
-          :src="require('../../../../public/img/servicios/iaas/IaasCar (3).png')"
+          :src="
+            require('../../../../public/img/servicios/iaas/IaasCar (3).png')
+          "
           alt="x"
         ></b-img>
-        <p>
-          Eficacia
-        </p>
+        <p>Eficacia</p>
       </div>
     </div>
   </div>
@@ -41,7 +43,7 @@
   align-items: center;
   padding: 40px 40px;
   gap: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   /* Inside auto layout */
   flex: none;
   order: 2;

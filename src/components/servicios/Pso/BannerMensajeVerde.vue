@@ -1,8 +1,12 @@
 <template>
   <div id="banner-mensajeVC">
-    <tarjeta-mensajeV mensaje="<strong class='msjsmT'>DRPMéxico Professional
-    Service</strong>" mensaje2="<span class='msjsm'>Los más altos niveles de
-    eficiencia y eficacia para su organización</span>" class="tarjetaMsj">
+    <tarjeta-mensajeV
+      mensaje="<strong class='msjsmT'>DRPMéxico Professional
+    Service</strong>"
+      mensaje2="<span class='msjsm'>Los más altos niveles de
+    eficiencia y eficacia para su organización</span>"
+      class="tarjetaMsj"
+    >
     </tarjeta-mensajeV>
   </div>
 </template>
@@ -37,6 +41,5 @@ export default {
   .msjsm {
     font-size: 25px;
   }
-
 }
 </style>

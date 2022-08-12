@@ -6,9 +6,11 @@
 </template>
 
 <script>
-const varTxt = '<strong><span class="txtgreen">Protección</span></strong> total de Microsoft 365.';
+const varTxt =
+  '<strong><span class="txtgreen">Protección</span></strong> total de Microsoft 365.';
 // const varTxt2 = '<strong><span class="txtgreen">DRP</span>México Microsoft 365</strong> ';
-const varTxt2 = 'Protección automática de datos críticos de <strong>Microsoft 365</strong>, incluidos Exchange Online, SharePoint Online, OneDrive for Business y Microsoft Teams';
+const varTxt2 =
+  'Protección automática de datos críticos de <strong>Microsoft 365</strong>, incluidos Exchange Online, SharePoint Online, OneDrive for Business y Microsoft Teams';
 
 export default {
   data: () => ({
@@ -28,7 +30,7 @@ export default {
   gap: 100px;
 
   /* gris claro */
-  background: #F7F8F8;
+  background: #f7f8f8;
 
   /* Inside auto layout */
   // align-self: stretch;

@@ -1,31 +1,35 @@
-/* eslint-disable vue/no-unused-components */
 <template>
   <div id="home-view">
+    <portada></portada>
     <carrousel-comp></carrousel-comp>
-    <!-- <bienvenida-comp></bienvenida-comp> -->
-    <servicios-comp></servicios-comp>
-    <nosotros-comp></nosotros-comp>
-    <video-comp></video-comp>
-    <clientes-comp></clientes-comp>
+    <enfoque-comp></enfoque-comp>
     <certificacionew-comp></certificacionew-comp>
+    <clientes-comp></clientes-comp>
+    <video-comp></video-comp>
+    <!-- <servicios-comp></servicios-comp>
+    <nosotros-comp></nosotros-comp>
+     -->
   </div>
 </template>
 
 <script>
-// import bienvenidaComp from '@/components/principal/bienvenidaComp.vue';
-import serviciosComp from '@/components/principal/serviciosComp.vue';
+import portada from '@/components/principal/portadaComp.vue';
 import carrouselComp from '@/components/principal/carrouselComp.vue';
-import nosotrosComp from '@/components/principal/nosotrosComp.vue';
+import enfoqueComp from '@/components/principal/enfoqueComp.vue';
+// import serviciosComp from '@/components/principal/old/serviciosComp.vue';
+// import nosotrosComp from '@/components/principal/nosotrosComp.vue';
 import videoComp from '@/components/principal/videoComp.vue';
 import clientesComp from '@/components/principal/clientesComp.vue';
 import certificacionewComp from '@/components/principal/certificacionewComp.vue';
 
 export default {
   components: {
+    portada,
+    enfoqueComp,
     // bienvenidaComp,
-    serviciosComp,
+    //   serviciosComp,
     carrouselComp,
-    nosotrosComp,
+    // nosotrosComp,
     videoComp,
     clientesComp,
     certificacionewComp,

@@ -2,7 +2,9 @@
   <b-container fluid sm id="banner-ms365">
     <b-img
       :src="require('../../../../public/img/servicios/ms365/ms365icon.png')"
-      fluid alt="baas"></b-img>
+      fluid
+      alt="baas"
+    ></b-img>
   </b-container>
 </template>
 

@@ -2,12 +2,37 @@
   <div class="clts reveal">
     <span class="drpTitulo">Clientes</span>
     <div class="imgClientes reveal">
-      <b-img requi :src="require('@/assets/logos/Clisa.png')" height="200" class="reveal"></b-img>
-      <b-img requi :src="require('@/assets/logos/Pegaduro.png')" height="220"></b-img>
-      <b-img requi :src="require('@/assets/logos/Hino.png')" height="220"></b-img>
-      <b-img requi :src="require('@/assets/logos/SanPablo.png')" height="200"></b-img>
-      <b-img requi :src="require('@/assets/logos/Infra.png')" height="100"></b-img>
-      <b-img requi :src="require('@/assets/logos/Similares.png')" height="130"></b-img>
+      <b-img
+        requi
+        :src="require('@/assets/logos/Clisa.png')"
+        height="200"
+        class="reveal"
+      ></b-img>
+      <b-img
+        requi
+        :src="require('@/assets/logos/Pegaduro.png')"
+        height="220"
+      ></b-img>
+      <b-img
+        requi
+        :src="require('@/assets/logos/Hino.png')"
+        height="220"
+      ></b-img>
+      <b-img
+        requi
+        :src="require('@/assets/logos/SanPablo.png')"
+        height="200"
+      ></b-img>
+      <b-img
+        requi
+        :src="require('@/assets/logos/Infra.png')"
+        height="100"
+      ></b-img>
+      <b-img
+        requi
+        :src="require('@/assets/logos/Similares.png')"
+        height="130"
+      ></b-img>
     </div>
     <!-- <carousel-3d :autoplay="true" :autoplay-timeout="3000" :width="200" :height="200"
       :inverse-scaling="400" :space="300" :border="0">

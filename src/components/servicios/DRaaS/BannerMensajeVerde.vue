@@ -3,7 +3,8 @@
     <tarjeta-mensajeV
       mensaje="<strong class='msjsmT'>DRPMéxico Disaster Recovery as a Service</strong>"
       mensaje2="<span class='msjsm'>Garantizando la seguridad de tus datos:</span>"
-      class="tarjetaMsj">
+      class="tarjetaMsj"
+    >
     </tarjeta-mensajeV>
   </div>
 </template>

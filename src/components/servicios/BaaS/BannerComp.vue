@@ -1,8 +1,10 @@
 <template>
   <b-container fluid sm class="bannerServ animate__fadeIn">
-    <b-img  class="imgslide"
-    :src="require('../../../../public/img/servicios/baas/baasicon.png')"
-    alt="baas"></b-img>
+    <b-img
+      class="imgslide"
+      :src="require('../../../../public/img/servicios/baas/baasicon.png')"
+      alt="baas"
+    ></b-img>
   </b-container>
 </template>
 
@@ -10,10 +12,10 @@
 .imgslide {
   /* This section calls the slideInFromLeft animation we defined above */
   // animation: 1s ease-in-out 0s 1 slide;
-   animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 3s; /* don't forget to set a duration! */
 }
-.bannerServ{
+.bannerServ {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -23,15 +25,15 @@
   background-repeat: no-repeat;
   // border-radius: 0px 0px 30px 30px;
   // height: auto;
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 
-img{
-  width: auto;
-  height: 500px;
-  padding: 100px ;
+  img {
+    width: auto;
+    height: 500px;
+    padding: 100px;
   }
 }
 @keyframes slide {
@@ -51,15 +53,14 @@ img{
   }
 }
 
-@media only screen and (min-width: 992px){
-  #banner-baas{
+@media only screen and (min-width: 992px) {
+  #banner-baas {
     background-size: 100% 100%;
-  img{
-  width: auto;
-  height: 400px;
-  padding: 70px 0px 70px 170px;
-  }
+    img {
+      width: auto;
+      height: 400px;
+      padding: 70px 0px 70px 170px;
+    }
   }
 }
-
 </style>

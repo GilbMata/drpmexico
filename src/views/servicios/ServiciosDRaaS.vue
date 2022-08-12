@@ -39,7 +39,7 @@ export default {
 </script>
 
 <style lang="scss">
-#servicios-bas{
+#servicios-bas {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -48,5 +48,4 @@ export default {
 
   position: relative;
 }
-
 </style>

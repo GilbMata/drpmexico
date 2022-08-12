@@ -3,7 +3,8 @@
     <tarjeta-mensajeV
       mensaje="<strong class='msjsmT'>DRPMéxico Infraestructure as a Service</strong>"
       mensaje2="<span class='msjsm'>Máximo rendimiento de tus recursos</span>"
-      class="tarjetaMsj">
+      class="tarjetaMsj"
+    >
     </tarjeta-mensajeV>
   </div>
 </template>

@@ -55,14 +55,14 @@ export default {
 
 @media only screen and (min-width: 992px) {
   #descComp {
-  //   display: flex;
-  //   flex-wrap: nowrap;
-  //   gap: 0px;
+    //   display: flex;
+    //   flex-wrap: nowrap;
+    //   gap: 0px;
     padding: 100px;
-  //   flex-direction: row;
-  //   align-content: center;
-  //   justify-content: center;
-  //   align-items: center;
+    //   flex-direction: row;
+    //   align-content: center;
+    //   justify-content: center;
+    //   align-items: center;
   }
 
   .rowdesc {

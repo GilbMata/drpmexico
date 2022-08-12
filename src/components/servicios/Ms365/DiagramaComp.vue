@@ -1,7 +1,9 @@
 <template>
   <div id="mapa">
-    <b-img class="imgdiagrama365"
-      :src="require('../../../../public/img/servicios/ms365/Diagrama.png')">
+    <b-img
+      class="imgdiagrama365"
+      :src="require('../../../../public/img/servicios/ms365/Diagrama.png')"
+    >
     </b-img>
   </div>
 </template>
@@ -13,7 +15,7 @@
   justify-content: center;
   padding: 20px;
   order: 7;
-background: #F7F8F8;
+  background: #f7f8f8;
   .imgdiagrama365 {
     width: 1000px;
     // height: 100%;

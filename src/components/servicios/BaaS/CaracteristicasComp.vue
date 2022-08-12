@@ -4,7 +4,9 @@
       <div class="pImgServ">
         <b-img
           class="imgServComp"
-          :src="require('../../../../public/img/servicios/baas/BaasCar (1).png')"
+          :src="
+            require('../../../../public/img/servicios/baas/BaasCar (1).png')
+          "
           alt="x"
         ></b-img>
         <p>RPO flexible</p>
@@ -13,17 +15,19 @@
       <div class="pImgServ">
         <b-img
           class="imgServComp"
-          :src="require('../../../../public/img/servicios/baas/BaasCar (2).png')"
+          :src="
+            require('../../../../public/img/servicios/baas/BaasCar (2).png')
+          "
           alt="x"
         ></b-img>
-        <p>
-          Reduce costos <br />de adquisicion
-        </p>
+        <p>Reduce costos <br />de adquisicion</p>
       </div>
       <div class="pImgServ">
         <b-img
           class="imgServComp"
-          :src="require('../../../../public/img/servicios/baas/BaasCar (3).png')"
+          :src="
+            require('../../../../public/img/servicios/baas/BaasCar (3).png')
+          "
           alt="x"
         ></b-img>
         <p>
@@ -34,7 +38,9 @@
       <div class="pImgServ">
         <b-img
           class="imgServComp"
-          :src="require('../../../../public/img/servicios/baas/BaasCar (4).png')"
+          :src="
+            require('../../../../public/img/servicios/baas/BaasCar (4).png')
+          "
           alt="x"
         ></b-img>
         <p>
@@ -72,7 +78,7 @@
   flex-grow: 0;
 }
 .serv {
-  font-family: "Century Gothic";
+  font-family: 'Century Gothic';
   font-style: normal;
   font-weight: 600;
   font-size: 40px;

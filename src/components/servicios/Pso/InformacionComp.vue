@@ -6,8 +6,10 @@
 </template>
 
 <script>
-const varTxt = '<strong><span class="txtgreen">Mas que un equipo de expertos.</span></strong>';
-const varTxt2 = 'Asi como <strong><span class="txtgreen">DRPMéxico</strong> utiliza tecnología comprobada para <strong>garantizar el rendimiento</strong> y la <strong>seguridad</strong> de todos nuestros servicios, nuestros servicios administrados aprovechan las mejores prácticas de la industria y habilidades especializadas en forma de orientación, integración, validación de servicios y administración continua. Nuestro objetivo es el mismo que el suyo: <strong>Brindar los resultados que su negocio necesita para tener éxito</strong>.';
+const varTxt =
+  '<strong><span class="txtgreen">Mas que un equipo de expertos.</span></strong>';
+const varTxt2 =
+  'Asi como <strong><span class="txtgreen">DRPMéxico</strong> utiliza tecnología comprobada para <strong>garantizar el rendimiento</strong> y la <strong>seguridad</strong> de todos nuestros servicios, nuestros servicios administrados aprovechan las mejores prácticas de la industria y habilidades especializadas en forma de orientación, integración, validación de servicios y administración continua. Nuestro objetivo es el mismo que el suyo: <strong>Brindar los resultados que su negocio necesita para tener éxito</strong>.';
 
 export default {
   data: () => ({
@@ -45,7 +47,7 @@ export default {
   gap: 100px;
 
   /* gris claro */
-  background: #F7F8F8;
+  background: #f7f8f8;
 
   /* Inside auto layout */
   align-self: stretch;

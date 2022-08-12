@@ -5,10 +5,13 @@ module.exports = {
   },
   extends: [
     'plugin:vue/essential',
-    '@vue/airbnb',
+    '@vue/prettier',
+    'plugin:prettier/recommended',
+    // '@vue/airbnb',
+    'prettier',
   ],
   parserOptions: {
-    parser: '@babel/eslint-parser',
+    parser: 'babel-eslint',
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',

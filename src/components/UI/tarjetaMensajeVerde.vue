@@ -15,18 +15,18 @@ export default {
 </script>
 
 <style>
-#tarjeta-mensajeVerde{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: 'Century Gothic';
-    font-style: normal;
-    font-weight: 500;
-    /* font-size: 40px; */
-    line-height: 40px;
-    padding: 10%;
-    gap: 10px;
+#tarjeta-mensajeVerde {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 40px; */
+  line-height: 40px;
+  padding: 10%;
+  gap: 10px;
 }
 </style>

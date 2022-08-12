@@ -3,7 +3,8 @@
     <tarjeta-mensajeV
       mensaje="<strong class='msjsmT'>DRPMÉXICO MICROSOFT 365 BACKUP</strong>"
       mensaje2="<strong class='msjsm'>Eficiencia en la nube de extremo a extremo.</strong>"
-      class="tarjetaMsj">
+      class="tarjetaMsj"
+    >
     </tarjeta-mensajeV>
   </div>
 </template>
@@ -38,6 +39,5 @@ export default {
   .msjsm {
     font-size: 25px;
   }
-
 }
 </style>

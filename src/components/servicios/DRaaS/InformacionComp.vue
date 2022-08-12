@@ -6,8 +6,10 @@
 </template>
 
 <script>
-const varTxt = '<strong class="txtgreen">Prepárate</strong> para lo <strong>impredecible</strong>';
-const varTxt2 = '<strong><span class="txtgreen">DRP</span>México Backup</strong> ofrece la capacidad y la confianza para recuperarse lo más rápido y fácilmente posible <strong>cuando ocurre un desastre.</strong>';
+const varTxt =
+  '<strong class="txtgreen">Prepárate</strong> para lo <strong>impredecible</strong>';
+const varTxt2 =
+  '<strong><span class="txtgreen">DRP</span>México Backup</strong> ofrece la capacidad y la confianza para recuperarse lo más rápido y fácilmente posible <strong>cuando ocurre un desastre.</strong>';
 
 export default {
   data: () => ({

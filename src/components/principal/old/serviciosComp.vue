@@ -3,21 +3,41 @@
     <span class="drpTitulo">SERVICIOS</span>
     <div class="serviciosList">
       <!-- <sequential-entrance fromBottom> -->
-        <router-link to="/baas">
-          <img class="imgServicio" src="../../../public/img/servicios/baas.png" alt="">
-        </router-link>
-        <router-link to="/draas">
-          <img class="imgServicio" src="../../../public/img/servicios/draas.png" alt="">
-        </router-link>
-        <router-link to="/iaas">
-          <img class="imgServicio" src="../../../public/img/servicios/iaas.png" alt="">
-        </router-link>
-        <router-link to="/ms365">
-          <img class="imgServicio" src="../../../public/img/servicios/360.png" alt="">
-        </router-link>
-        <router-link to="/pso">
-          <img class="imgServicio" src="../../../public/img/servicios/pso.png" alt="">
-        </router-link>
+      <router-link to="/baas">
+        <img
+          class="imgServicio"
+          src="../../../public/img/servicios/baas.png"
+          alt=""
+        />
+      </router-link>
+      <router-link to="/draas">
+        <img
+          class="imgServicio"
+          src="../../../public/img/servicios/draas.png"
+          alt=""
+        />
+      </router-link>
+      <router-link to="/iaas">
+        <img
+          class="imgServicio"
+          src="../../../public/img/servicios/iaas.png"
+          alt=""
+        />
+      </router-link>
+      <router-link to="/ms365">
+        <img
+          class="imgServicio"
+          src="../../../public/img/servicios/360.png"
+          alt=""
+        />
+      </router-link>
+      <router-link to="/pso">
+        <img
+          class="imgServicio"
+          src="../../../public/img/servicios/pso.png"
+          alt=""
+        />
+      </router-link>
       <!-- </sequential-entrance> -->
     </div>
   </div>
@@ -30,7 +50,7 @@
   align-items: center;
   padding: 1.5rem;
   gap: 10px;
-  background: #F3F3F4;
+  background: #f3f3f4;
   /* Inside auto layout */
   flex: none;
   order: 2;
@@ -51,7 +71,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  animation: .5s ease-in-out 0s 1 slideUp;
+  animation: 0.5s ease-in-out 0s 1 slideUp;
 }
 
 .serviciosList {
@@ -77,11 +97,11 @@
   .imgServicio {
     height: 18rem;
     // padding: 20px;
-}
-.ServiciosTitulo {
-  font-size: 2.6rem;
-  letter-spacing: 0.1em;
-}
+  }
+  .ServiciosTitulo {
+    font-size: 2.6rem;
+    letter-spacing: 0.1em;
+  }
 
   .serviciosList {
     div {

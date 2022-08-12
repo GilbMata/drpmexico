@@ -1,21 +1,39 @@
 P
 <template>
-  <div class="cert reveal">
+  <div class="cert">
     <p class="drpTitulo">certificaciones</p>
     <div class="certimg">
-      <b-img :src="require('../../../public/img/principal/certificaciones/certfi (1).png')"
-      class="imgcert"></b-img>
-      <b-link href="https://www.veeam.com/es/find-partner.html?country=MEX&search=drp&page=1">
-
-          <b-img :src="require('../../../public/img/principal/certificaciones/certfi (2).png')"
-      class="imgcert"></b-img>
+      <b-img
+        :src="
+          require('../../../public/img/principal/certificaciones/certfi (1).png')
+        "
+        class="imgcert"
+      ></b-img>
+      <b-link
+        href="https://www.veeam.com/es/find-partner.html?country=MEX&search=drp&page=1"
+      >
+        <b-img
+          :src="
+            require('../../../public/img/principal/certificaciones/certfi (2).png')
+          "
+          class="imgcert"
+        ></b-img>
       </b-link>
-        <b-link href="https://www.veeam.com/es/find-partner.html?country=MEX&search=drp&page=1">
-      <img src="../../../public/img/principal/certificaciones/certfi (3).png"
-      class="imgcert" alt="">
-        </b-link>
-      <b-img :src="require('../../../public/img/principal/certificaciones/certfi (4).png')"
-      class="imgcert"></b-img>
+      <b-link
+        href="https://www.veeam.com/es/find-partner.html?country=MEX&search=drp&page=1"
+      >
+        <img
+          src="../../../public/img/principal/certificaciones/certfi (3).png"
+          class="imgcert"
+          alt=""
+        />
+      </b-link>
+      <b-img
+        :src="
+          require('../../../public/img/principal/certificaciones/certfi (4).png')
+        "
+        class="imgcert"
+      ></b-img>
     </div>
   </div>
 </template>
@@ -55,7 +73,6 @@ P
   align-items: center;
   padding: 30px 2px;
   /* gap: 2rem; */
-  background: #f7f8f8;
   /* Inside auto layout */
   flex: none;
   order: 6;

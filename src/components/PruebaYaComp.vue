@@ -8,7 +8,7 @@
         <li>Configuración guiada y soporte 24 X 7.</li>
       </ul>
     </div>
-    <b-button >¡COMIENZA TU PRUEBA!</b-button>
+    <b-button>¡COMIENZA TU PRUEBA!</b-button>
   </div>
 </template>
 
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style lang="scss">
-#prueba-ya{
+#prueba-ya {
   display: flex;
   flex-direction: column;
   // justify-content: space-between;
@@ -38,7 +38,7 @@ export default {
   font-weight: 700;
   font-size: 2.5rem;
   // line-height: 58px;
-  color: #FFFFFF;
+  color: #ffffff;
 
   // border-radius: 30px;
   /* Inside auto layout */
@@ -57,14 +57,14 @@ export default {
     gap: 5px;
     font-size: 1rem;
   }
-  .btn-secondary{
-     display: flex;
+  .btn-secondary {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-      font-weight: 700;
+    font-weight: 700;
     color: black;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 0.2rem;
     // padding: 5px 20vw 5px 20vw;
     // width: 50%;
@@ -74,12 +74,12 @@ export default {
   }
 }
 
-@media only screen and (min-width: 992px){
-  #prueba-ya{
+@media only screen and (min-width: 992px) {
+  #prueba-ya {
     flex-direction: row;
     padding: 10px;
   }
-  .fisrtya{
+  .fisrtya {
     display: flex;
     flex-direction: column;
     padding: 3rem;

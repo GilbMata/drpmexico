@@ -7,7 +7,6 @@ import VuePlyr from 'vue-plyr';
 import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
-import store from './store';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import 'vue-sequential-entrance/vue-sequential-entrance.css';
@@ -28,6 +27,5 @@ Vue.use(VuePlyr, {
 
 new Vue({
   router,
-  store,
   render: (h) => h(App),
 }).$mount('#app');

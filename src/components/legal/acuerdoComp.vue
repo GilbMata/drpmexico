@@ -1,6 +1,5 @@
 /* eslint-disable max-len */
 <template>
-
   <div class="acuerdos">
     <h1 class="title">Acuerdo de cliente</h1>
     <p>Última actualización: 8 de septiembre del 2021</p>
@@ -12,16 +11,16 @@
       Servicios (como se define a continuación) y es un acuerdo entre la Parte
       contratante de DRPMéxico correspondiente que se especifica en la Sección
       14 a continuación (también denominada como "
-      <strong>DRPMéxico</strong>", "<strong>nosotros</strong>" o "<strong>nuestro</strong>")
-      y usted o la entidad que representa ("<strong>usted</strong>" o "
-      <strong>su</strong>"). Este Acuerdo entra en vigor cuando acepta una
-      cotización o utiliza cualquiera de los Servicios de acuerdo con (la "Fecha
-      de vigencia"). Usted nos manifiesta que está legalmente capacitado para
-      celebrar contratos (por ejemplo, no es menor de edad). Si está celebrando
-      este Acuerdo para una entidad, como la empresa para la que trabaja, nos
-      declara que tiene autoridad legal para vincular a esa entidad. Consulte la
-      Sección 14 para conocer las definiciones de ciertos términos en mayúscula
-      utilizados en este Acuerdo.
+      <strong>DRPMéxico</strong>", "<strong>nosotros</strong>" o
+      "<strong>nuestro</strong>") y usted o la entidad que representa
+      ("<strong>usted</strong>" o " <strong>su</strong>"). Este Acuerdo entra en
+      vigor cuando acepta una cotización o utiliza cualquiera de los Servicios
+      de acuerdo con (la "Fecha de vigencia"). Usted nos manifiesta que está
+      legalmente capacitado para celebrar contratos (por ejemplo, no es menor de
+      edad). Si está celebrando este Acuerdo para una entidad, como la empresa
+      para la que trabaja, nos declara que tiene autoridad legal para vincular a
+      esa entidad. Consulte la Sección 14 para conocer las definiciones de
+      ciertos términos en mayúscula utilizados en este Acuerdo.
     </p>
     <p></p>
     <h3>1. Uso de los Servicios.</h3>
@@ -227,7 +226,7 @@
       Servicios inmediatamente después de que le notifiquemos si determinamos:
     </p>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li>
         su uso o el de un Usuario final de los Servicios (i) representa un
         riesgo de seguridad para los Servicios o cualquier tercero, (ii) podría
@@ -238,17 +237,19 @@
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
-      <li value="2">usted o cualquier Usuario final está incumpliendo este
-        Acuerdo;</li>
+    <ol style="list-style-type: lower-alpha">
+      <li value="2">
+        usted o cualquier Usuario final está incumpliendo este Acuerdo;
+      </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
-      <li value="3">está incumpliendo sus obligaciones de pago según la Sección
-        5; o</li>
+    <ol style="list-style-type: lower-alpha">
+      <li value="3">
+        está incumpliendo sus obligaciones de pago según la Sección 5; o
+      </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li value="4">
         ha dejado de operar en el curso ordinario, ha realizado una cesión en
         beneficio de los acreedores o una disposición similar de sus activos, o
@@ -263,14 +264,14 @@
       acceder o utilizar cualquier parte o todas las Ofertas de Servicios:
     </p>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li>
         usted sigue siendo responsable de todas las tarifas y cargos en los que
         incurra durante el período de suspensión; y
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li value="2">
         no tendrá derecho a ningún crédito de servicio en virtud de los Acuerdos
         de nivel de servicio durante ningún período de suspensión.
@@ -293,7 +294,7 @@
       <strong>Terminación</strong>.
     </p>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li>
         Terminación por conveniencia. Puede rescindir este Acuerdo por cualquier
         motivo notificándonos y cerrando su cuenta para todos los Servicios para
@@ -303,11 +304,11 @@
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li value="2">Terminación por Causa.</li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-roman;">
+    <ol style="list-style-type: lower-roman">
       <li>
         Por cualquiera de las partes. Cualquiera de las partes puede rescindir
         este Acuerdo por causa justificada si la otra parte incumple
@@ -318,7 +319,7 @@
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-roman;">
+    <ol style="list-style-type: lower-roman">
       <li value="2">
         Por nosotros. También podemos rescindir este Acuerdo inmediatamente
         después de notificárselo (A) con causa si tenemos el derecho de
@@ -336,18 +337,18 @@
       <strong>Efecto de la rescisión</strong>.
     </p>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li>Generalmente. Tras la fecha de terminación:</li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-roman;">
+    <ol style="list-style-type: lower-roman">
       <li>
         excepto según lo dispuesto en la Sección 7.3 (b), todos sus derechos
         bajo este Acuerdo terminan inmediatamente;
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-roman;">
+    <ol style="list-style-type: lower-roman">
       <li value="2">
         usted sigue siendo responsable de todas las tarifas y cargos en los que
         haya incurrido hasta la Fecha de terminación y es responsable de las
@@ -356,14 +357,14 @@
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-roman;">
+    <ol style="list-style-type: lower-roman">
       <li value="3">
         usted regresará inmediatamente o, si se lo indicamos, destruirá todo el
         Contenido DRPMéxico que tenga en su poder; y
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-roman;">
+    <ol style="list-style-type: lower-roman">
       <li value="4">
         Las Secciones 4.1, 5, 7.3, 8 (excepto la licencia otorgada a usted en la
         Sección 8.3), 9, 10, 11, 13 y 14 seguirán aplicándose de acuerdo con sus
@@ -371,7 +372,7 @@
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li value="2">
         Post-Rescisión. A menos que cancelemos su uso de las Ofertas de
         Servicios de conformidad con la Sección 7.2 (b), durante los 30 días
@@ -379,14 +380,14 @@
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-roman;">
+    <ol style="list-style-type: lower-roman">
       <li>
         no tomaremos medidas para eliminar de los sistemas DRPMéxico Su
         contenido como resultado de la rescisión; y
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-roman;">
+    <ol style="list-style-type: lower-roman">
       <li value="2">
         le permitiremos recuperar Su Contenido de los Servicios solo si ha
         pagado todos los montos adeudados en virtud de este Acuerdo.
@@ -497,7 +498,7 @@
       <strong>Propiedad intelectual</strong>.
     </p>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li>
         Sujeto a las limitaciones de esta Sección 9, DRPMéxico lo defenderá a
         usted y a sus empleados, funcionarios y directores contra cualquier
@@ -507,7 +508,7 @@
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li value="2">
         Sujeto a las limitaciones de esta Sección 9, usted defenderá a
         DRPMéxico, sus afiliados y sus respectivos empleados, funcionarios y
@@ -518,7 +519,7 @@
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li value="3">
         Ninguna de las partes tendrá obligaciones o responsabilidad en virtud de
         esta Sección 9.2 que surjan de la infracción por combinaciones de los
@@ -534,7 +535,7 @@
       </li>
     </ol>
     <p></p>
-    <ol style="list-style-type:lower-alpha;">
+    <ol style="list-style-type: lower-alpha">
       <li value="4">
         Para cualquier reclamo cubierto por la Sección 9.2 (a), DRPMéxico, a su
         elección, ya sea: (i) adquirirá los derechos para usar esa parte de los
@@ -876,25 +877,25 @@
     <table border="1" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
-          <td style="width:208px;">
-            <p style="text-align: center;">País</p>
+          <td style="width: 208px">
+            <p style="text-align: center">País</p>
           </td>
-          <td style="width:208px;">
-            <p style="text-align: center;">Parte Contratante</p>
+          <td style="width: 208px">
+            <p style="text-align: center">Parte Contratante</p>
           </td>
-          <td style="width:208px;">
-            <p style="text-align: center;">Dirección</p>
+          <td style="width: 208px">
+            <p style="text-align: center">Dirección</p>
           </td>
         </tr>
         <tr>
-          <td style="width:208px;">
-            <p style="text-align: center;">México</p>
+          <td style="width: 208px">
+            <p style="text-align: center">México</p>
           </td>
-          <td style="width:208px;">
-            <p style="text-align: center;">DRP Cloud México SAPI de CV</p>
+          <td style="width: 208px">
+            <p style="text-align: center">DRP Cloud México SAPI de CV</p>
           </td>
-          <td style="width:208px;">
-            <p style="text-align: center;">
+          <td style="width: 208px">
+            <p style="text-align: center">
               Av. de las Américas 1501-Piso 20, Sao Paulo, Providencia, 44630
               Guadalajara, Jal
             </p>
@@ -954,26 +955,27 @@
     <table border="1" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
-          <td style="width:208px;">
-            <p style="text-align: center;">Parte Contratante</p>
+          <td style="width: 208px">
+            <p style="text-align: center">Parte Contratante</p>
           </td>
-          <td style="width:208px;">
-            <p style="text-align: center;">Leyes vigentes</p>
+          <td style="width: 208px">
+            <p style="text-align: center">Leyes vigentes</p>
           </td>
-          <td style="width:208px;">
-            <p style="text-align: center;">Tribunales vigentes</p>
+          <td style="width: 208px">
+            <p style="text-align: center">Tribunales vigentes</p>
           </td>
         </tr>
         <tr>
-          <td style="width:208px;">
-            <p style="text-align: center;">DRP Cloud Mexico SAPI de CV</p>
+          <td style="width: 208px">
+            <p style="text-align: center">DRP Cloud Mexico SAPI de CV</p>
           </td>
-          <td style="width:208px;">
-            <p style="text-align: center;">Las leyes de México</p>
+          <td style="width: 208px">
+            <p style="text-align: center">Las leyes de México</p>
           </td>
-          <td style="width:208px;">
-            <p style="text-align: center;">Los tribunales estatales o federales
-              en Guadalajara, Jalisco</p>
+          <td style="width: 208px">
+            <p style="text-align: center">
+              Los tribunales estatales o federales en Guadalajara, Jalisco
+            </p>
           </td>
         </tr>
       </tbody>
@@ -1008,7 +1010,9 @@
     <p>
       “
       <strong>Aviso de privacidad</strong>” significa el aviso de privacidad
-      <a href="https://www.drpmexico.com/aviso_privacidad.html">https://www.drpmexico.com/aviso_privacidad.html</a>
+      <a href="https://www.drpmexico.com/aviso_privacidad.html"
+        >https://www.drpmexico.com/aviso_privacidad.html</a
+      >
       (y cualquier sucesor o ubicaciones relacionadas que designemos), ya que
       podemos actualizarlo de vez en cuando.
     </p>

@@ -1,14 +1,26 @@
 <template>
   <div class="card2">
     <div class="servimg">
-      <b-img class="imgserv"
-        :src="require('../../../../public/img/servicios/iaas/IaaS-icons  (1).svg')">
+      <b-img
+        class="imgserv"
+        :src="
+          require('../../../../public/img/servicios/iaas/IaaS-icons  (1).svg')
+        "
+      >
       </b-img>
-      <b-img class="imgserv"
-        :src="require('../../../../public/img/servicios/iaas/IaaS-icons  (2).svg')">
+      <b-img
+        class="imgserv"
+        :src="
+          require('../../../../public/img/servicios/iaas/IaaS-icons  (2).svg')
+        "
+      >
       </b-img>
-      <b-img class="imgserv"
-        :src="require('../../../../public/img/servicios/iaas/IaaS-icons  (3).svg')">
+      <b-img
+        class="imgserv"
+        :src="
+          require('../../../../public/img/servicios/iaas/IaaS-icons  (3).svg')
+        "
+      >
       </b-img>
     </div>
   </div>
@@ -21,7 +33,7 @@
   align-items: center;
   padding: 40px 40px;
   gap: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   /* Inside auto layout */
   flex: none;
   order: 2;

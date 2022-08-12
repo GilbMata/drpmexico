@@ -1,19 +1,25 @@
 <template>
   <div id="banner-mensaje" class="reveal">
-    <tarjeta-mensaje mensaje="<strong><span class='txtgreen'>DRP</span>México
+    <tarjeta-mensaje
+      mensaje="<strong><span class='txtgreen'>DRP</span>México
     DRaaS</strong> Integrado con Veeam y VMware, en conjunto proporcionan las
     capacidades de <strong>seguridad, replicación y conmutación</strong> por
     error que necesita para garantizar que su empresa esté
       <strong class='txtgreen'>siempre en línea y disponible.</strong>"
-      class="tarjetaMsj">
+      class="tarjetaMsj"
+    >
     </tarjeta-mensaje>
     <div class="vmlogos">
       <b-img
         :src="require('../../../../public/img/servicios/draas/VeeamLogo.png')"
-        class="" alt=""></b-img>
+        class=""
+        alt=""
+      ></b-img>
       <b-img
         :src="require('../../../../public/img/servicios/draas/VmwareLogo.png')"
-        class="" alt=""></b-img>
+        class=""
+        alt=""
+      ></b-img>
     </div>
   </div>
 </template>
@@ -36,7 +42,7 @@ export default {
   align-items: center;
   padding: 150px 150px;
   /* gris claro */
-  background: #F7F8F8;
+  background: #f7f8f8;
   /* Inside auto layout */
   flex: none;
   order: 2;

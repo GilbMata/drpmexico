@@ -1,7 +1,10 @@
 <template>
   <b-container fluid sm id="banner-pso" class="bannerServ">
-    <b-img :src="require('../../../../public/img/servicios/pso/psoicon.png')"
-      fluid alt="baas"></b-img>
+    <b-img
+      :src="require('../../../../public/img/servicios/pso/psoicon.png')"
+      fluid
+      alt="baas"
+    ></b-img>
   </b-container>
 </template>
 
