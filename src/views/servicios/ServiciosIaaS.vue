@@ -1,36 +1,27 @@
 <template>
   <div id="servicios-bas">
-    <banner-mensaje></banner-mensaje>
     <banner-comp></banner-comp>
-    <caracteristicas-comp></caracteristicas-comp>
-    <informacion-Comp></informacion-Comp>
-    <banner-mensajeVerde></banner-mensajeVerde>
-    <tarjeta-descripcion-comp></tarjeta-descripcion-comp>
-    <prueba-comp></prueba-comp>
+    <iaas-comp />
+    <beneficios-comp />
+    <layout-iaas />
     <diagrama-comp></diagrama-comp>
   </div>
 </template>
 
 <script>
-import BannerMensaje from '@/components/servicios/IaaS/BannerMensaje.vue';
-import BannerComp from '@/components/servicios/IaaS/BannerComp.vue';
-import caracteristicasComp from '@/components/servicios/IaaS/CaracteristicasComp.vue';
-import InformacionComp from '@/components/servicios/IaaS/InformacionComp.vue';
-import BannerMensajeVerde from '@/components/servicios/IaaS/BannerMensajeVerde.vue';
-import TarjetaDescripcionComp from '@/components/servicios/IaaS/TarjetaDescripcionComp.vue';
-import PruebaComp from '@/components/PruebaYaComp.vue';
-import DiagramaComp from '@/components/servicios/IaaS/DiagramaComp.vue';
+import BannerComp from '@/components/servicios/IaaS/PortadaIaas.vue';
+import IaasComp from '@/components/servicios/IaaS/DescripcionComp.vue';
+import BeneficiosComp from '@/components/servicios/IaaS/BeneficiosIaas.vue';
+import DiagramaComp from '@/components/servicios/IaaS/DiagramaIaas.vue';
+import LayoutIaas from '@/components/servicios/IaaS/menuInt/LayoutIaas.vue';
 
 export default {
   components: {
-    BannerMensaje,
     BannerComp,
-    caracteristicasComp,
-    InformacionComp,
-    BannerMensajeVerde,
-    TarjetaDescripcionComp,
-    PruebaComp,
+    IaasComp,
+    BeneficiosComp,
     DiagramaComp,
+    LayoutIaas,
   },
   mounted() {
     window.scrollTo(0, 0);

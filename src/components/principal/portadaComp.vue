@@ -9,18 +9,18 @@
     <div class="simplificamos">
       <h1>SIMPLIFICAMOS</h1>
       <h6>TU EXPERIENCIA EN LA NUBE.</h6>
-      <h7>
+      <h6>
         Ofrecemos una forma simplificada de disfrutar de los servicios en la
         nube para aplicaciones y servicios de TI de nueva generación.
-      </h7>
-      <b-button pill>30 dias de prueba gratis</b-button>
+      </h6>
+      <b-button pill class="btndrp">30 dias de prueba gratis</b-button>
     </div>
   </div>
 </template>
 
 <script></script>
 
-<style lang="scss">
+<style lang="scss" scope>
 .portada {
   img {
     width: 100%;
@@ -31,7 +31,7 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    padding: 10px 15vw;
+    padding: 40px 15vw;
     text-align: center;
     background-color: #2c2a25;
     color: white;
@@ -48,10 +48,10 @@
     .btn {
       color: black;
       background-color: #f0c447;
-      font-weight: 700;
-      line-height: 1;
+      // font-weight: 700;
+      // line-height: 1;
       margin-top: 20px;
-      margin-bottom: 30px;
+      // margin-bottom: 30px;
     }
   }
 }

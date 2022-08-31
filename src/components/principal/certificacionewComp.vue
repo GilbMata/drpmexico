@@ -71,7 +71,8 @@ P
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 2px;
+  margin: 40px 0;
+  // padding: 30px 2px;
   /* gap: 2rem; */
   /* Inside auto layout */
   flex: none;
@@ -86,7 +87,7 @@ P
 @media only screen and (min-width: 992px) {
   .cert {
     gap: 10px;
-    padding: 3rem;
+    // padding: 3rem;
   }
 
   .certimg {

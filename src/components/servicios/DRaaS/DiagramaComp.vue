@@ -1,8 +1,8 @@
 <template>
   <div id="mapa">
     <b-img
-      class="imgdiagrama"
-      :src="require('../../../../public/img/servicios/draas/diagramaDRaaS.png')"
+      class=""
+      :src="require('../../../../public/img/servicios/draas/DIAGRAM_DRAAS.png')"
     ></b-img>
   </div>
 </template>
@@ -12,12 +12,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  order: 7;
+  // padding: 20px;
+  margin: 10px 10vw;
   background: #f7f8f8;
+  img {
+    width: 100%;
+  }
   .imgdiagrama {
-    width: 80%;
-    //height: 10%;
+    transition: transform 0.25s ease;
+  }
+  .imgdiagrama:hover {
+    -webkit-transform: scale(1.2); /* or some other value */
+    transform: scale(1.2);
   }
 }
 </style>

@@ -92,7 +92,7 @@ export default {};
 .caracteristicas {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 
   justify-content: space-evenly;
   align-content: flex-start;
@@ -117,7 +117,21 @@ export default {};
   }
   img {
     width: 8vw;
+    height: 8vw;
     margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .caracteristicas {
+    margin-right: 0;
+    margin-left: 0;
+    gap: 15px 10px;
+    .caracter {
+      width: 80%;
+    }
+  }
+  .enfoque {
+    align-items: center;
   }
 }
 </style>

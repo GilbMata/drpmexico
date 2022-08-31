@@ -1,12 +1,8 @@
 <template>
-  <div class="svideo reveal">
+  <div class="svideo revea">
+    <p class="drpTitulo">casos de clientes</p>
     <vue-plyr class="vuevideo">
-      <video
-        controls
-        crossorigin
-        playsinline
-        data-poster="../../../public/img/principal/DRPMexico.jpg"
-      >
+      <video controls crossorigin playsinline data-poster="">
         <source
           size="320"
           src="../../../public/img/principal/porque_drpmusic.mp4"
@@ -37,7 +33,7 @@
 }
 @media only screen and (min-width: 992px) {
   .svideo {
-    padding: 100px 250px;
+    padding: 50px 250px;
   }
 }
 </style>

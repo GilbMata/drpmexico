@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <title>DRxico</title>
     <b-container fluid>
       <menu-default></menu-default>
       <router-view />
@@ -13,7 +12,7 @@
 import 'animate.css';
 import menuDefault from '@/components/MenuDefault.vue';
 // import { bodyScript } from '@/assets/external';
-import footerComp from '@/components/footerComp.vue';
+import footerComp from '@/components/footComp.vue';
 
 const cwhite = '#FFFFFF';
 
@@ -26,14 +25,6 @@ export default {
   data: () => ({
     cwhite,
   }),
-  // created() {
-  //   // external.headScript('/assets/script1.js');
-  //   bodyScript('https://assets.freshservice.com/widget/freshwidget.js');
-  // },
-  // destroyed() {
-  //   /* external.delScript('/assets/script1.js');
-  //   external.delScript('/assets/script2.js'); */
-  // },
 };
 function reveal() {
   const reveals = document.querySelectorAll('.reveal');
@@ -55,22 +46,19 @@ window.addEventListener('scroll', reveal);
 .drpTitulo {
   display: flex;
   justify-content: center;
+  font-size: 1.5rem;
   margin-bottom: 10px;
-  /* font-style: normal; */
-  /* font-weight: 700; */
-  /* font-size: 2rem; */
-  /* line-height: 28px; */
   letter-spacing: 5px;
   text-transform: uppercase;
-  /* line-height: 28px; */
-  /* align-items: center; */
-  /* justify-items: center; */
-  /* text-align: center; */
   color: #000000;
   /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.btndrp {
+  font-weight: 700 !important;
+  line-height: 1 !important;
 }
 #banner-mensaje {
   display: flex;
@@ -89,6 +77,7 @@ window.addEventListener('scroll', reveal);
 
 #app {
   font-family: 'Century Gothic';
+  min-width: 350px;
 }
 
 .txtgreen {
@@ -115,7 +104,7 @@ window.addEventListener('scroll', reveal);
 }
 @media only screen and (min-width: 992px) {
   .drpTitulo {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
 }
 </style>

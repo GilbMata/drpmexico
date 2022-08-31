@@ -1,22 +1,23 @@
 <template>
-  <div id="mapa">
+  <div id="mapabaas">
     <b-img
-      class="imgdiagrama"
+      class=""
       :src="require('../../../../public/img/servicios/baas/Diagrama.png')"
     ></b-img>
   </div>
 </template>
 
-<style lang="scss"></style>
-
 <style lang="scss">
-#mapa {
+#mapabaas {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  order: 7;
-  background: #f7f8f8;
+  // padding: 20px;
+  margin: 40px 10vw;
+  // background: #f7f8f8;
+  img {
+    width: 90%;
+  }
   .imgdiagrama {
     transition: transform 0.25s ease;
   }

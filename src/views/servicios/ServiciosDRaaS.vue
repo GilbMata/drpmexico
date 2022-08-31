@@ -1,36 +1,27 @@
 <template>
   <div id="servicios-bas">
-    <banner-mensaje></banner-mensaje>
     <banner-comp></banner-comp>
-    <caracteristicas-comp></caracteristicas-comp>
-    <informacion-Comp></informacion-Comp>
-    <banner-mensajeVerde></banner-mensajeVerde>
-    <tarjeta-descripcion-comp></tarjeta-descripcion-comp>
-    <prueba-comp></prueba-comp>
+    <draas-comp />
+    <beneficios-comp />
+    <layout-draas />
     <diagrama-comp></diagrama-comp>
   </div>
 </template>
 
 <script>
-import BannerMensaje from '@/components/servicios/DRaaS/BannerMensaje.vue';
-import BannerComp from '@/components/servicios/DRaaS/BannerComp.vue';
-import caracteristicasComp from '@/components/servicios/DRaaS/CaracteristicasComp.vue';
-import InformacionComp from '@/components/servicios/DRaaS/InformacionComp.vue';
-import BannerMensajeVerde from '@/components/servicios/DRaaS/BannerMensajeVerde.vue';
-import TarjetaDescripcionComp from '@/components/servicios/DRaaS/TarjetaDescripcionComp.vue';
-import PruebaComp from '@/components/PruebaYaComp.vue';
+import BannerComp from '@/components/servicios/DRaaS/PortadaDRaas.vue';
+import DraasComp from '@/components/servicios/DRaaS/DescripcionComp.vue';
+import BeneficiosComp from '@/components/servicios/DRaaS/BeneficiosDraas.vue';
 import DiagramaComp from '@/components/servicios/DRaaS/DiagramaComp.vue';
+import LayoutDraas from '@/components/servicios/DRaaS/menuInt/LayoutDraas.vue';
 
 export default {
   components: {
-    BannerMensaje,
     BannerComp,
-    caracteristicasComp,
-    InformacionComp,
-    BannerMensajeVerde,
-    TarjetaDescripcionComp,
-    PruebaComp,
+    DraasComp,
+    BeneficiosComp,
     DiagramaComp,
+    LayoutDraas,
   },
   mounted() {
     window.scrollTo(0, 0);
