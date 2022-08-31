@@ -1,5 +1,5 @@
 <template>
-  <DIV>
+  <div id="beneficiosBaaS">
     <div class="caractServ reval">
       <p class="drpTitulo">BENEFICIOS</p>
       <div class="caractServImg">
@@ -52,5 +52,5 @@
       </div>
       <b-button pill class="btndrp btneficios">OBTENER PRECIOS</b-button>
     </div>
-  </DIV>
+  </div>
 </template>

@@ -17,14 +17,14 @@
 </template>
 
 <script>
-export default {
-  mounted: function () {
-    setTimeout(function () {
-      const elem = document.getElementById('firstbaas');
-      elem.click();
-    }, 100);
-  },
-};
+// export default {
+//   updated: function () {
+//     setTimeout(function () {
+//       const elem = document.getElementById('firstbaas');
+//       elem.click();
+//     }, 100);
+//   },
+// };
 </script>
 
 <style lang="scss">

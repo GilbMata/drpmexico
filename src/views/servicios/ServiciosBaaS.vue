@@ -23,8 +23,23 @@ export default {
     DiagramaComp,
     LayoutBaas,
   },
+  props: { toid: String },
   mounted() {
-    window.scrollTo(0, 0);
+    if (this.toid) {
+      console.log(this.toid);
+
+      this.scrollToElement(this.toid);
+    } else {
+      console.log('no');
+    }
+    // window.scrollTo(0, 0);
+  },
+  methods: {
+    scrollToElement(id) {
+      const position = document.getElementById(id).offsetTop;
+      // smooth scroll
+      window.scrollTo({ top: position, behavior: 'smooth' });
+    },
   },
 };
 </script>

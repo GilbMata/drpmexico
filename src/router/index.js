@@ -74,9 +74,21 @@ const routes = [
     ],
   },
   {
-    path: '/baas',
+    path: '/baas/beneficiosbaas',
+    name: 'beneficiosbaas',
+    component: () =>
+      import(
+        /* webpackChunkName: "ProfeSional" */ '../components/servicios/BaaS/BeneficiosBaas.vue'
+      ),
+  },
+  {
+    path: '/baas/:toid',
     name: 'ServiciosBaaS',
-    component: ServiciosBaaS,
+    props: true,
+    component: () =>
+      import(
+        /* webpackChunkName: "ProfeSional" */ '../views/servicios/ServiciosBaaS.vue'
+      ),
     children: [
       {
         path: '/tecnologiabaas',
